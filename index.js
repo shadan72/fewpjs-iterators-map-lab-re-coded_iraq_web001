@@ -15,6 +15,7 @@ const tutorials = [
   return tutorials
 }*/
 
+<<<<<<< HEAD
 const titleCased = () => {
   return tutorials.map(x =>{
   let tutorial=x.split(" ");
@@ -22,6 +23,15 @@ const titleCased = () => {
     tutorial[i]=tutorial[i].charAt(0).toUpperCase() + tutorial[i].slice(1)
   }
   return tutorial.join(" ");
+=======
+const titleCased = (){
+  return tutorials.map(x =>{
+  let tutorial=x.split(' ')
+  for(let i=0;i<tutorial.length;i++){
+    tutorial[i]=tutorial[i].charAt(0).toUpperCase() + tutorial[i].slice(1)
+  }
+  return tutorial.join(' ');
+>>>>>>> 242066d4090c7171a3d322fce4f6cab097ff5501
 })
 } 
 
